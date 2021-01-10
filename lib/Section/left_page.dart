@@ -11,7 +11,7 @@ class _LeftPageState extends State<LeftPage> {
   Widget build(BuildContext context) {
     return Container(
       height: MediaQuery.of(context).size.height,
-      width: MediaQuery.of(context).size.height * 0.68,
+      width: MediaQuery.of(context).size.height * 1,
       decoration: BoxDecoration(
         image: DecorationImage(
           image: NetworkImage(
@@ -25,35 +25,35 @@ class _LeftPageState extends State<LeftPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.only(left: 15.0, top: 20.0),
+            padding: const EdgeInsets.only(left: 35.0, top: 20.0),
             child: CustomText(
               text: "Travelrr",
-              fontSize: 15,
+              fontSize: 35,
               fontWeight: FontWeight.w700,
               color: Colors.white,
             ),
           ),
           Spacer(),
           Padding(
-            padding: const EdgeInsets.only(left: 15.0, top: 20),
+            padding: const EdgeInsets.only(left: 35.0, top: 20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomText(
                   text: "hey",
-                  fontSize: 25,
+                  fontSize: 55,
                   fontWeight: FontWeight.w700,
                   color: Colors.white,
                 ),
                 CustomText(
                   text: "Where are you going on",
-                  fontSize: 25,
+                  fontSize: 55,
                   fontWeight: FontWeight.w700,
                   color: Colors.white,
                 ),
                 CustomText(
                   text: "for vacation holiday",
-                  fontSize: 25,
+                  fontSize: 55,
                   fontWeight: FontWeight.w700,
                   color: Colors.white,
                 ),
@@ -66,14 +66,14 @@ class _LeftPageState extends State<LeftPage> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(7.0),
                     ),
-                    height: 40,
-                    width: 170,
+                    height: 50,
+                    width: 270,
                     child: Center(
                       child: CustomText(
                         text: "Plan a vacation",
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.black,
+                        fontSize: 25,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.green,
                       ),
                     ),
                   ),

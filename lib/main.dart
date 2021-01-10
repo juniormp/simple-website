@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:simple_web_app/Section/left_page.dart';
+import 'package:simple_web_app/Section/right_page.dart';
 
 import 'Custom/custom_text.dart';
 
